@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[|Actual value = My reservations]]>
+    </line>
+    <line>
+      <![CDATA[|Expected value = My reservations]]>
+    </line>
+    <line>
+      <![CDATA[|PASS  Verifying reservation is successfful]]>
+    </line>
+    <line>
+      <![CDATA[Application is Closing...]]>
+    </line>
+    <line>
+      <![CDATA[PASS]]>
+    </line>
+    <line>
+      <![CDATA[|Actual value = My reservations]]>
+    </line>
+    <line>
+      <![CDATA[|Expected value = My reservations]]>
+    </line>
+    <line>
+      <![CDATA[|PASS  Verifying reservation is successfful]]>
+    </line>
+    <line>
+      <![CDATA[Application is Closing...]]>
+    </line>
+    <line>
+      <![CDATA[PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="106051" started-at="2017-04-04T15:45:56Z" finished-at="2017-04-04T15:47:42Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="66551" started-at="2017-04-04T15:45:56Z" finished-at="2017-04-04T15:47:03Z">
+      <class name="com.restaurants.smoke.Tests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.restaurants.smoke.Tests@4667ae56]" name="beforeClass" is-config="true" duration-ms="50877" started-at="2017-04-04T17:45:56Z" finished-at="2017-04-04T17:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="restaurantsSmokeTest()[pri:0, instance:com.restaurants.smoke.Tests@4667ae56]" name="restaurantsSmokeTest" duration-ms="15455" started-at="2017-04-04T17:46:47Z" finished-at="2017-04-04T17:47:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[|Actual value = My reservations]]>
+            </line>
+            <line>
+              <![CDATA[|Expected value = My reservations]]>
+            </line>
+            <line>
+              <![CDATA[|PASS  Verifying reservation is successfful]]>
+            </line>
+            <line>
+              <![CDATA[Application is Closing...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- restaurantsSmokeTest -->
+        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:com.restaurants.smoke.Tests@4667ae56]" name="writeResult" is-config="true" duration-ms="0" started-at="2017-04-04T17:47:03Z" finished-at="2017-04-04T17:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=restaurantsSmokeTest status=SUCCESS method=Tests.restaurantsSmokeTest()[pri:0, instance:com.restaurants.smoke.Tests@4667ae56] output=|Actual value = My reservations]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.restaurants.smoke.Tests@4667ae56]" name="tearDown" is-config="true" duration-ms="154" started-at="2017-04-04T17:47:03Z" finished-at="2017-04-04T17:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.restaurants.smoke.Tests -->
+    </test> <!-- Chrome Test -->
+    <test name="FireFox Test" duration-ms="38972" started-at="2017-04-04T15:47:03Z" finished-at="2017-04-04T15:47:42Z">
+      <class name="com.restaurants.smoke.Tests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.restaurants.smoke.Tests@3fee9989]" name="beforeClass" is-config="true" duration-ms="23868" started-at="2017-04-04T17:47:03Z" finished-at="2017-04-04T17:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="restaurantsSmokeTest()[pri:0, instance:com.restaurants.smoke.Tests@3fee9989]" name="restaurantsSmokeTest" duration-ms="15095" started-at="2017-04-04T17:47:27Z" finished-at="2017-04-04T17:47:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[|Actual value = My reservations]]>
+            </line>
+            <line>
+              <![CDATA[|Expected value = My reservations]]>
+            </line>
+            <line>
+              <![CDATA[|PASS  Verifying reservation is successfful]]>
+            </line>
+            <line>
+              <![CDATA[Application is Closing...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- restaurantsSmokeTest -->
+        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:com.restaurants.smoke.Tests@3fee9989]" name="writeResult" is-config="true" duration-ms="1" started-at="2017-04-04T17:47:42Z" finished-at="2017-04-04T17:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=restaurantsSmokeTest status=SUCCESS method=Tests.restaurantsSmokeTest()[pri:0, instance:com.restaurants.smoke.Tests@3fee9989] output=|Actual value = My reservations]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.restaurants.smoke.Tests@3fee9989]" name="tearDown" is-config="true" duration-ms="5" started-at="2017-04-04T17:47:42Z" finished-at="2017-04-04T17:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.restaurants.smoke.Tests -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

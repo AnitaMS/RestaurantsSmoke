@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="methods" thread-count="2">
+	
+
+<test name="Chrome Test">
+<parameter name="browserType" value="chrome"/>
+<classes>
+<class name="com.restaurants.smoke.Tests">
+		</class>
+		</classes>
+		</test>
+		<test name="FireFox Test">
+<parameter name="browserType" value="firefox"/>	
+		<classes>
+		<class name="com.restaurants.smoke.Tests">
+		</class>
+		</classes>
+		</test>
+		</suite>
+		
